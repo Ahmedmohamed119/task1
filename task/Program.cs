@@ -1,0 +1,16 @@
+﻿Console.WriteLine("Enter price per small");
+int perSmall = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter price per large");
+int perLarge = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter taxpar");
+double taxpar = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter number of small");
+int contPerSmall = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number of large");
+int contPerLarge = Convert.ToInt32(Console.ReadLine());
+int cost = (perSmall * contPerSmall) + (perLarge * contPerLarge);
+double tax = cost * (taxpar);
+double total = cost + tax;
+Console.WriteLine("Cost: " + cost);
+Console.WriteLine("Tax: " + tax);
+Console.WriteLine("Total: " + total);

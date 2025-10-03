@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="first project/first project.csproj" />
+  <Project Path="task/task.csproj" Id="2433d38a-d72e-4bad-8108-806398f3ba42" />
+</Solution>
